@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13186,7 +13186,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="LVL1" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="LVL2" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="IC4" library="linear" deviceset="TL072" device="D"/>
-<part name="C7" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C9" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="5" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="6" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="LVL5" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
@@ -13197,23 +13197,23 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C8" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C10" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C9" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C13" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C10" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C14" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C11" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C17" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="C12" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
+<part name="C18" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -13250,6 +13250,13 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device=""/>
 <part name="D1" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="D2" library="diode" deviceset="MBR0520LT" device=""/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13275,7 +13282,7 @@ divider and unity buffered for line out</text>
 <instance part="LVL1" gate="G$1" x="121.92" y="386.08"/>
 <instance part="LVL2" gate="G$1" x="121.92" y="345.44"/>
 <instance part="IC4" gate="B" x="154.94" y="386.08" rot="MR180"/>
-<instance part="C7" gate="G$1" x="227.33" y="360.68" rot="R90"/>
+<instance part="C9" gate="G$1" x="227.33" y="360.68" rot="R90"/>
 <instance part="5" gate="G$1" x="214.63" y="358.14" rot="MR0"/>
 <instance part="6" gate="G$1" x="214.63" y="317.5" rot="MR0"/>
 <instance part="LVL5" gate="G$1" x="237.49" y="345.44"/>
@@ -13286,23 +13293,23 @@ divider and unity buffered for line out</text>
 <instance part="R10" gate="G$1" x="252.73" y="347.98"/>
 <instance part="GND2" gate="1" x="237.49" y="330.2"/>
 <instance part="R9" gate="G$1" x="270.51" y="355.6"/>
-<instance part="C8" gate="G$1" x="227.33" y="320.04" rot="R90"/>
+<instance part="C10" gate="G$1" x="227.33" y="320.04" rot="R90"/>
 <instance part="R6" gate="G$1" x="252.73" y="307.34"/>
 <instance part="GND1" gate="1" x="237.49" y="289.56"/>
 <instance part="R7" gate="G$1" x="270.51" y="314.96"/>
-<instance part="C9" gate="G$1" x="111.76" y="320.04" rot="R90"/>
+<instance part="C13" gate="G$1" x="111.76" y="320.04" rot="R90"/>
 <instance part="R16" gate="G$1" x="137.16" y="307.34"/>
 <instance part="GND3" gate="1" x="121.92" y="289.56"/>
 <instance part="R15" gate="G$1" x="154.94" y="314.96"/>
-<instance part="C10" gate="G$1" x="227.33" y="401.32" rot="R90"/>
+<instance part="C14" gate="G$1" x="227.33" y="401.32" rot="R90"/>
 <instance part="R12" gate="G$1" x="252.73" y="388.62"/>
 <instance part="GND4" gate="1" x="237.49" y="370.84"/>
 <instance part="R13" gate="G$1" x="270.51" y="396.24"/>
-<instance part="C11" gate="G$1" x="111.76" y="401.32" rot="R90"/>
+<instance part="C17" gate="G$1" x="111.76" y="401.32" rot="R90"/>
 <instance part="R22" gate="G$1" x="137.16" y="388.62"/>
 <instance part="GND5" gate="1" x="121.92" y="370.84"/>
 <instance part="R21" gate="G$1" x="154.94" y="396.24"/>
-<instance part="C12" gate="G$1" x="111.76" y="360.68" rot="R90"/>
+<instance part="C18" gate="G$1" x="111.76" y="360.68" rot="R90"/>
 <instance part="R18" gate="G$1" x="137.16" y="347.98"/>
 <instance part="GND6" gate="1" x="121.92" y="330.2"/>
 <instance part="R19" gate="G$1" x="154.94" y="355.6"/>
@@ -13347,6 +13354,13 @@ divider and unity buffered for line out</text>
 <instance part="FB2" gate="G$1" x="220.98" y="261.62"/>
 <instance part="D1" gate="G$1" x="234.95" y="284.48" rot="R180"/>
 <instance part="D2" gate="G$1" x="233.68" y="261.62"/>
+<instance part="C12" gate="G$1" x="170.18" y="280.67"/>
+<instance part="C16" gate="G$1" x="165.1" y="280.67"/>
+<instance part="C8" gate="G$1" x="160.02" y="280.67"/>
+<instance part="C11" gate="G$1" x="170.18" y="267.97"/>
+<instance part="C15" gate="G$1" x="165.1" y="267.97"/>
+<instance part="C7" gate="G$1" x="160.02" y="267.97"/>
+<instance part="GND12" gate="1" x="153.924" y="261.366"/>
 </instances>
 <busses>
 </busses>
@@ -13513,10 +13527,32 @@ divider and unity buffered for line out</text>
 <wire x1="219.71" y1="273.05" x2="246.38" y2="273.05" width="0.1524" layer="91"/>
 <junction x="219.71" y="273.05"/>
 </segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="275.59" x2="170.18" y2="273.05" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="273.05" x2="170.18" y2="270.51" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="275.59" x2="165.1" y2="273.05" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="273.05" x2="165.1" y2="270.51" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="273.05" x2="165.1" y2="273.05" width="0.1524" layer="91"/>
+<junction x="170.18" y="273.05"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="275.59" x2="160.02" y2="273.05" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="273.05" x2="160.02" y2="270.51" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="273.05" x2="160.02" y2="273.05" width="0.1524" layer="91"/>
+<junction x="165.1" y="273.05"/>
+<junction x="160.02" y="273.05"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="160.02" y1="273.05" x2="153.924" y2="273.05" width="0.1524" layer="91"/>
+<wire x1="153.924" y1="273.05" x2="153.924" y2="263.906" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="360.68" x2="237.49" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="LVL5" gate="G$1" pin="B"/>
 <wire x1="237.49" y1="360.68" x2="237.49" y2="358.14" width="0.1524" layer="91"/>
@@ -13553,14 +13589,14 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="+"/>
+<pinref part="C10" gate="G$1" pin="+"/>
 <wire x1="219.71" y1="320.04" x2="224.79" y2="320.04" width="0.1524" layer="91"/>
 <pinref part="6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="-"/>
+<pinref part="C10" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="320.04" x2="237.49" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="320.04" x2="237.49" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="LVL6" gate="G$1" pin="B"/>
@@ -13587,14 +13623,14 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="+"/>
+<pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="320.04" x2="109.22" y2="320.04" width="0.1524" layer="91"/>
 <pinref part="3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="-"/>
+<pinref part="C13" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="320.04" x2="121.92" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="320.04" x2="121.92" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="LVL3" gate="G$1" pin="B"/>
@@ -13621,14 +13657,14 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="219.71" y1="401.32" x2="224.79" y2="401.32" width="0.1524" layer="91"/>
 <pinref part="4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="-"/>
+<pinref part="C14" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="401.32" x2="237.49" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="401.32" x2="237.49" y2="398.78" width="0.1524" layer="91"/>
 <pinref part="LVL4" gate="G$1" pin="B"/>
@@ -13655,14 +13691,14 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="+"/>
+<pinref part="C17" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="401.32" x2="109.22" y2="401.32" width="0.1524" layer="91"/>
 <pinref part="1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="-"/>
+<pinref part="C17" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="401.32" x2="121.92" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="401.32" x2="121.92" y2="398.78" width="0.1524" layer="91"/>
 <pinref part="LVL1" gate="G$1" pin="B"/>
@@ -13689,14 +13725,14 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="C12" gate="G$1" pin="+"/>
+<pinref part="C18" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="360.68" x2="109.22" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="C12" gate="G$1" pin="-"/>
+<pinref part="C18" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="360.68" x2="121.92" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="360.68" x2="121.92" y2="358.14" width="0.1524" layer="91"/>
 <pinref part="LVL2" gate="G$1" pin="B"/>
@@ -13730,7 +13766,7 @@ divider and unity buffered for line out</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="C9" gate="G$1" pin="+"/>
 <pinref part="5" gate="G$1" pin="2"/>
 <wire x1="224.79" y1="360.68" x2="219.71" y2="360.68" width="0.1524" layer="91"/>
 </segment>
@@ -13763,6 +13799,18 @@ divider and unity buffered for line out</text>
 <pinref part="FB2" gate="G$1" pin="P$1"/>
 <wire x1="213.36" y1="261.62" x2="215.9" y2="261.62" width="0.1524" layer="91"/>
 <junction x="213.36" y="261.62"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="261.62" x2="170.18" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="261.62" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="261.62" x2="160.02" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="261.62" x2="160.02" y2="262.89" width="0.1524" layer="91"/>
+<junction x="182.88" y="261.62"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="262.89" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
+<junction x="165.1" y="261.62"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="262.89" x2="170.18" y2="261.62" width="0.1524" layer="91"/>
+<junction x="170.18" y="261.62"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -13793,6 +13841,18 @@ divider and unity buffered for line out</text>
 <pinref part="FB1" gate="G$1" pin="P$1"/>
 <wire x1="213.36" y1="284.48" x2="215.9" y2="284.48" width="0.1524" layer="91"/>
 <junction x="213.36" y="284.48"/>
+<wire x1="182.88" y1="284.48" x2="170.18" y2="284.48" width="0.1524" layer="91"/>
+<junction x="182.88" y="284.48"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="284.48" x2="165.1" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="284.48" x2="160.02" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="284.48" x2="160.02" y2="283.21" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="283.21" x2="165.1" y2="284.48" width="0.1524" layer="91"/>
+<junction x="165.1" y="284.48"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="283.21" x2="170.18" y2="284.48" width="0.1524" layer="91"/>
+<junction x="170.18" y="284.48"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -14012,53 +14072,59 @@ divider and unity buffered for line out</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,182.88,280.67,IC1P,V+,+12V,,,"/>
-<approved hash="104,1,182.88,265.43,IC1P,V-,-12V,,,"/>
-<approved hash="104,1,187.96,280.67,IC2P,V+,+12V,,,"/>
-<approved hash="104,1,187.96,265.43,IC2P,V-,-12V,,,"/>
-<approved hash="104,1,193.04,280.67,IC3P,V+,+12V,,,"/>
-<approved hash="104,1,193.04,265.43,IC3P,V-,-12V,,,"/>
-<approved hash="104,1,198.12,280.67,IC4P,V+,+12V,,,"/>
-<approved hash="104,1,198.12,265.43,IC4P,V-,-12V,,,"/>
-<approved hash="113,1,228.6,362.038,C1,,,,,"/>
-<approved hash="113,1,252.73,348.975,R1,,,,,"/>
-<approved hash="113,1,270.51,356.595,R2,,,,,"/>
-<approved hash="113,1,228.6,321.398,C3,,,,,"/>
-<approved hash="113,1,252.73,308.335,R3,,,,,"/>
-<approved hash="113,1,270.51,315.955,R4,,,,,"/>
-<approved hash="113,1,113.03,321.398,C4,,,,,"/>
-<approved hash="113,1,137.16,308.335,R5,,,,,"/>
-<approved hash="113,1,154.94,315.955,R6,,,,,"/>
-<approved hash="113,1,228.6,402.678,C5,,,,,"/>
-<approved hash="113,1,252.73,389.615,R7,,,,,"/>
-<approved hash="113,1,270.51,397.235,R8,,,,,"/>
-<approved hash="113,1,113.03,402.678,C6,,,,,"/>
-<approved hash="113,1,137.16,389.615,R9,,,,,"/>
-<approved hash="113,1,154.94,397.235,R10,,,,,"/>
-<approved hash="113,1,113.03,362.038,C7,,,,,"/>
-<approved hash="113,1,137.16,348.975,R11,,,,,"/>
-<approved hash="113,1,154.94,356.595,R12,,,,,"/>
-<approved hash="113,1,341.63,376.915,R13,,,,,"/>
-<approved hash="113,1,341.63,374.375,R15,,,,,"/>
-<approved hash="113,1,341.63,371.835,R16,,,,,"/>
-<approved hash="113,1,341.63,369.295,R17,,,,,"/>
-<approved hash="113,1,341.63,366.755,R18,,,,,"/>
-<approved hash="113,1,341.63,364.215,R19,,,,,"/>
-<approved hash="113,1,364.49,348.975,R14,,,,,"/>
-<approved hash="113,1,378.46,355.325,R20,,,,,"/>
-<approved hash="113,1,406.4,346.798,C2,,,,,"/>
-<approved hash="113,1,421.64,322.668,C8,,,,,"/>
-<approved hash="113,1,390.165,316.23,R21,,,,,"/>
-<approved hash="113,1,392.155,331.47,R22,,,,,"/>
-<approved hash="113,1,208.368,279.4,C9,,,,,"/>
-<approved hash="113,1,209.078,266.7,C10,,,,,"/>
-<approved hash="113,1,215.647,279.4,C11,,,,,"/>
-<approved hash="113,1,215.741,266.7,C12,,,,,"/>
-<approved hash="113,1,246.617,285.881,+12V,,,,,"/>
+<approved hash="104,1,182.88,280.67,IC4P,V+,+12V,,,"/>
+<approved hash="104,1,182.88,265.43,IC4P,V-,-12V,,,"/>
+<approved hash="104,1,187.96,280.67,IC3P,V+,+12V,,,"/>
+<approved hash="104,1,187.96,265.43,IC3P,V-,-12V,,,"/>
+<approved hash="104,1,193.04,280.67,IC2P,V+,+12V,,,"/>
+<approved hash="104,1,193.04,265.43,IC2P,V-,-12V,,,"/>
+<approved hash="104,1,198.12,280.67,IC1P,V+,+12V,,,"/>
+<approved hash="104,1,198.12,265.43,IC1P,V-,-12V,,,"/>
+<approved hash="113,1,228.6,362.038,C7,,,,,"/>
+<approved hash="113,1,252.73,348.975,R10,,,,,"/>
+<approved hash="113,1,270.51,356.595,R9,,,,,"/>
+<approved hash="113,1,228.6,321.398,C8,,,,,"/>
+<approved hash="113,1,252.73,308.335,R6,,,,,"/>
+<approved hash="113,1,270.51,315.955,R7,,,,,"/>
+<approved hash="113,1,113.03,321.398,C9,,,,,"/>
+<approved hash="113,1,137.16,308.335,R16,,,,,"/>
+<approved hash="113,1,154.94,315.955,R15,,,,,"/>
+<approved hash="113,1,228.6,403.388,C10,,,,,"/>
+<approved hash="113,1,252.73,389.615,R12,,,,,"/>
+<approved hash="113,1,270.51,397.235,R13,,,,,"/>
+<approved hash="113,1,113.03,403.294,C11,,,,,"/>
+<approved hash="113,1,137.16,389.615,R22,,,,,"/>
+<approved hash="113,1,154.94,397.235,R21,,,,,"/>
+<approved hash="113,1,113.03,362.748,C12,,,,,"/>
+<approved hash="113,1,137.16,348.975,R18,,,,,"/>
+<approved hash="113,1,154.94,356.595,R19,,,,,"/>
+<approved hash="113,1,341.63,376.915,R20,,,,,"/>
+<approved hash="113,1,341.63,374.375,R17,,,,,"/>
+<approved hash="113,1,341.63,371.835,R14,,,,,"/>
+<approved hash="113,1,341.63,369.295,R11,,,,,"/>
+<approved hash="113,1,341.63,366.755,R8,,,,,"/>
+<approved hash="113,1,341.63,364.215,R5,,,,,"/>
+<approved hash="113,1,364.49,348.975,R2,,,,,"/>
+<approved hash="113,1,378.46,355.325,R1,,,,,"/>
+<approved hash="113,1,406.4,346.798,C5,,,,,"/>
+<approved hash="113,1,421.64,322.668,C6,,,,,"/>
+<approved hash="113,1,390.165,316.23,R4,,,,,"/>
+<approved hash="113,1,392.155,331.47,R3,,,,,"/>
+<approved hash="113,1,208.368,279.4,C1,,,,,"/>
+<approved hash="113,1,208.368,266.7,C2,,,,,"/>
+<approved hash="113,1,215.031,279.4,C3,,,,,"/>
+<approved hash="113,1,215.031,266.7,C4,,,,,"/>
+<approved hash="113,1,246.617,285.881,+12,,,,,"/>
 <approved hash="113,1,246.617,274.451,GND,,,,,"/>
-<approved hash="113,1,246.617,263.021,-12V,,,,,"/>
+<approved hash="113,1,246.617,263.021,-12,,,,,"/>
 <approved hash="113,1,220.98,285.339,FB1,,,,,"/>
 <approved hash="113,1,220.98,262.479,FB2,,,,,"/>
+<approved hash="113,1,172.561,279.4,C13,,,,,"/>
+<approved hash="113,1,167.481,279.4,C14,,,,,"/>
+<approved hash="113,1,162.401,279.4,C15,,,,,"/>
+<approved hash="113,1,172.561,266.7,C17,,,,,"/>
+<approved hash="113,1,167.481,266.7,C18,,,,,"/>
+<approved hash="113,1,162.401,266.7,C19,,,,,"/>
 </errors>
 </schematic>
 </drawing>
