@@ -82,3 +82,7 @@ fascia/gerbers/cvocd-fascia-Edge_Cuts.gbr
 fascia/gerbers/cvocd-fascia-F_Cu.gbr
 fascia/gerbers/cvocd-fascia-F_SilkS.gbr
 bmp.scr
+fp-info-cache
+fp-lib-table
+panel/1u-mixer/ij/*.*
+panel/1u-mixer/pulp/*.*
