@@ -13177,22 +13177,22 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="LVL4" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
-<part name="1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="3" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="4" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="LVL3" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
-<part name="LVL1" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
-<part name="LVL2" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="LVLD" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="A" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="B" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="C" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="D" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="LVLC" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="LVLA" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="LVLB" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="IC4" library="linear" deviceset="TL072" device="D"/>
 <part name="C9" library="resistor" deviceset="CPOL-EU" device="E2-4"/>
-<part name="5" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="6" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="LVL5" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="E" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="F" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="LVLE" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="EURO" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="LINE" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="LVL6" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
+<part name="LVLF" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="VOL" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -13275,22 +13275,22 @@ divider and unity buffered for line out</text>
 VERSION 1.A (2021)</text>
 </plain>
 <instances>
-<instance part="LVL4" gate="G$1" x="237.49" y="386.08"/>
-<instance part="1" gate="G$1" x="99.06" y="398.78" rot="MR0"/>
-<instance part="2" gate="G$1" x="99.06" y="358.14" rot="MR0"/>
-<instance part="3" gate="G$1" x="99.06" y="317.5" rot="MR0"/>
-<instance part="4" gate="G$1" x="214.63" y="398.78" rot="MR0"/>
-<instance part="LVL3" gate="G$1" x="121.92" y="304.8"/>
-<instance part="LVL1" gate="G$1" x="121.92" y="386.08"/>
-<instance part="LVL2" gate="G$1" x="121.92" y="345.44"/>
+<instance part="LVLD" gate="G$1" x="237.49" y="386.08"/>
+<instance part="A" gate="G$1" x="99.06" y="398.78" rot="MR0"/>
+<instance part="B" gate="G$1" x="99.06" y="358.14" rot="MR0"/>
+<instance part="C" gate="G$1" x="99.06" y="317.5" rot="MR0"/>
+<instance part="D" gate="G$1" x="214.63" y="398.78" rot="MR0"/>
+<instance part="LVLC" gate="G$1" x="121.92" y="304.8"/>
+<instance part="LVLA" gate="G$1" x="121.92" y="386.08"/>
+<instance part="LVLB" gate="G$1" x="121.92" y="345.44"/>
 <instance part="IC4" gate="B" x="154.94" y="386.08" rot="MR180"/>
 <instance part="C9" gate="G$1" x="227.33" y="360.68" rot="R90"/>
-<instance part="5" gate="G$1" x="214.63" y="358.14" rot="MR0"/>
-<instance part="6" gate="G$1" x="214.63" y="317.5" rot="MR0"/>
-<instance part="LVL5" gate="G$1" x="237.49" y="345.44"/>
+<instance part="E" gate="G$1" x="214.63" y="358.14" rot="MR0"/>
+<instance part="F" gate="G$1" x="214.63" y="317.5" rot="MR0"/>
+<instance part="LVLE" gate="G$1" x="237.49" y="345.44"/>
 <instance part="EURO" gate="G$1" x="420.37" y="342.9"/>
 <instance part="LINE" gate="G$1" x="435.61" y="318.77"/>
-<instance part="LVL6" gate="G$1" x="237.49" y="304.8"/>
+<instance part="LVLF" gate="G$1" x="237.49" y="304.8"/>
 <instance part="VOL" gate="G$1" x="349.25" y="345.44"/>
 <instance part="R10" gate="G$1" x="252.73" y="347.98"/>
 <instance part="GND2" gate="1" x="237.49" y="330.2"/>
@@ -13377,11 +13377,11 @@ VERSION 1.A (2021)</text>
 <wire x1="222.25" y1="355.6" x2="222.25" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="335.28" x2="260.35" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="335.28" x2="260.35" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="LVL5" gate="G$1" pin="A"/>
+<pinref part="LVLE" gate="G$1" pin="A"/>
 <wire x1="237.49" y1="337.82" x2="237.49" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="5" gate="G$1" pin="3"/>
+<pinref part="E" gate="G$1" pin="3"/>
 <wire x1="219.71" y1="358.14" x2="222.25" y2="358.14" width="0.1524" layer="91"/>
-<pinref part="5" gate="G$1" pin="1"/>
+<pinref part="E" gate="G$1" pin="1"/>
 <wire x1="219.71" y1="355.6" x2="222.25" y2="355.6" width="0.1524" layer="91"/>
 <junction x="222.25" y="355.6"/>
 <pinref part="IC2" gate="B" pin="+IN"/>
@@ -13400,9 +13400,9 @@ VERSION 1.A (2021)</text>
 <junction x="237.49" y="294.64"/>
 <wire x1="237.49" y1="294.64" x2="260.35" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="294.64" x2="260.35" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="LVL6" gate="G$1" pin="A"/>
-<pinref part="6" gate="G$1" pin="1"/>
-<pinref part="6" gate="G$1" pin="3"/>
+<pinref part="LVLF" gate="G$1" pin="A"/>
+<pinref part="F" gate="G$1" pin="1"/>
+<pinref part="F" gate="G$1" pin="3"/>
 <pinref part="IC2" gate="A" pin="+IN"/>
 <wire x1="260.35" y1="302.26" x2="262.89" y2="302.26" width="0.1524" layer="91"/>
 </segment>
@@ -13419,9 +13419,9 @@ VERSION 1.A (2021)</text>
 <junction x="121.92" y="294.64"/>
 <wire x1="121.92" y1="294.64" x2="144.78" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="294.64" x2="144.78" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="LVL3" gate="G$1" pin="A"/>
-<pinref part="3" gate="G$1" pin="1"/>
-<pinref part="3" gate="G$1" pin="3"/>
+<pinref part="LVLC" gate="G$1" pin="A"/>
+<pinref part="C" gate="G$1" pin="1"/>
+<pinref part="C" gate="G$1" pin="3"/>
 <pinref part="IC3" gate="B" pin="+IN"/>
 <wire x1="147.32" y1="302.26" x2="144.78" y2="302.26" width="0.1524" layer="91"/>
 </segment>
@@ -13438,9 +13438,9 @@ VERSION 1.A (2021)</text>
 <junction x="237.49" y="375.92"/>
 <wire x1="237.49" y1="375.92" x2="260.35" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="375.92" x2="260.35" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="LVL4" gate="G$1" pin="A"/>
-<pinref part="4" gate="G$1" pin="1"/>
-<pinref part="4" gate="G$1" pin="3"/>
+<pinref part="LVLD" gate="G$1" pin="A"/>
+<pinref part="D" gate="G$1" pin="1"/>
+<pinref part="D" gate="G$1" pin="3"/>
 <pinref part="IC3" gate="A" pin="+IN"/>
 <wire x1="262.89" y1="383.54" x2="260.35" y2="383.54" width="0.1524" layer="91"/>
 </segment>
@@ -13458,9 +13458,9 @@ VERSION 1.A (2021)</text>
 <wire x1="121.92" y1="375.92" x2="144.78" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="375.92" x2="144.78" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="383.54" x2="147.32" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="LVL1" gate="G$1" pin="A"/>
-<pinref part="1" gate="G$1" pin="1"/>
-<pinref part="1" gate="G$1" pin="3"/>
+<pinref part="LVLA" gate="G$1" pin="A"/>
+<pinref part="A" gate="G$1" pin="1"/>
+<pinref part="A" gate="G$1" pin="3"/>
 <pinref part="IC4" gate="B" pin="+IN"/>
 </segment>
 <segment>
@@ -13476,9 +13476,9 @@ VERSION 1.A (2021)</text>
 <junction x="121.92" y="335.28"/>
 <wire x1="121.92" y1="335.28" x2="144.78" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="335.28" x2="144.78" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="LVL2" gate="G$1" pin="A"/>
-<pinref part="2" gate="G$1" pin="1"/>
-<pinref part="2" gate="G$1" pin="3"/>
+<pinref part="LVLB" gate="G$1" pin="A"/>
+<pinref part="B" gate="G$1" pin="1"/>
+<pinref part="B" gate="G$1" pin="3"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
 <wire x1="147.32" y1="342.9" x2="144.78" y2="342.9" width="0.1524" layer="91"/>
 </segment>
@@ -13556,7 +13556,7 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="360.68" x2="237.49" y2="360.68" width="0.1524" layer="91"/>
-<pinref part="LVL5" gate="G$1" pin="B"/>
+<pinref part="LVLE" gate="G$1" pin="B"/>
 <wire x1="237.49" y1="360.68" x2="237.49" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13593,7 +13593,7 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="+"/>
 <wire x1="219.71" y1="320.04" x2="224.79" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="6" gate="G$1" pin="2"/>
+<pinref part="F" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -13601,7 +13601,7 @@ VERSION 1.A (2021)</text>
 <pinref part="C10" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="320.04" x2="237.49" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="320.04" x2="237.49" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="LVL6" gate="G$1" pin="B"/>
+<pinref part="LVLF" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -13620,14 +13620,14 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="247.65" y1="307.34" x2="245.11" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="LVL6" gate="G$1" pin="W"/>
+<pinref part="LVLF" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="320.04" x2="109.22" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="3" gate="G$1" pin="2"/>
+<pinref part="C" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -13635,7 +13635,7 @@ VERSION 1.A (2021)</text>
 <pinref part="C13" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="320.04" x2="121.92" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="320.04" x2="121.92" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="LVL3" gate="G$1" pin="B"/>
+<pinref part="LVLC" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13654,14 +13654,14 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="307.34" x2="129.54" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="LVL3" gate="G$1" pin="W"/>
+<pinref part="LVLC" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="219.71" y1="401.32" x2="224.79" y2="401.32" width="0.1524" layer="91"/>
-<pinref part="4" gate="G$1" pin="2"/>
+<pinref part="D" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -13669,7 +13669,7 @@ VERSION 1.A (2021)</text>
 <pinref part="C14" gate="G$1" pin="-"/>
 <wire x1="232.41" y1="401.32" x2="237.49" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="401.32" x2="237.49" y2="398.78" width="0.1524" layer="91"/>
-<pinref part="LVL4" gate="G$1" pin="B"/>
+<pinref part="LVLD" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -13688,14 +13688,14 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="247.65" y1="388.62" x2="245.11" y2="388.62" width="0.1524" layer="91"/>
-<pinref part="LVL4" gate="G$1" pin="W"/>
+<pinref part="LVLD" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="C17" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="401.32" x2="109.22" y2="401.32" width="0.1524" layer="91"/>
-<pinref part="1" gate="G$1" pin="2"/>
+<pinref part="A" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -13703,7 +13703,7 @@ VERSION 1.A (2021)</text>
 <pinref part="C17" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="401.32" x2="121.92" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="401.32" x2="121.92" y2="398.78" width="0.1524" layer="91"/>
-<pinref part="LVL1" gate="G$1" pin="B"/>
+<pinref part="LVLA" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -13722,14 +13722,14 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="388.62" x2="129.54" y2="388.62" width="0.1524" layer="91"/>
-<pinref part="LVL1" gate="G$1" pin="W"/>
+<pinref part="LVLA" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="360.68" x2="109.22" y2="360.68" width="0.1524" layer="91"/>
-<pinref part="2" gate="G$1" pin="2"/>
+<pinref part="B" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -13737,7 +13737,7 @@ VERSION 1.A (2021)</text>
 <pinref part="C18" gate="G$1" pin="-"/>
 <wire x1="116.84" y1="360.68" x2="121.92" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="360.68" x2="121.92" y2="358.14" width="0.1524" layer="91"/>
-<pinref part="LVL2" gate="G$1" pin="B"/>
+<pinref part="LVLB" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -13756,12 +13756,12 @@ VERSION 1.A (2021)</text>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="347.98" x2="129.54" y2="347.98" width="0.1524" layer="91"/>
-<pinref part="LVL2" gate="G$1" pin="W"/>
+<pinref part="LVLB" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LVL5" gate="G$1" pin="W"/>
+<pinref part="LVLE" gate="G$1" pin="W"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="245.11" y1="347.98" x2="247.65" y2="347.98" width="0.1524" layer="91"/>
 </segment>
@@ -13769,7 +13769,7 @@ VERSION 1.A (2021)</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="+"/>
-<pinref part="5" gate="G$1" pin="2"/>
+<pinref part="E" gate="G$1" pin="2"/>
 <wire x1="224.79" y1="360.68" x2="219.71" y2="360.68" width="0.1524" layer="91"/>
 </segment>
 </net>
