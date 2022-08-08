@@ -13271,6 +13271,8 @@ buffered (and inverted) channel signals</text>
 inverting 10x gain stage </text>
 <text x="398.78" y="298.45" size="2.54" layer="97">Signal passes through a 1/5 voltage 
 divider and unity buffered for line out</text>
+<text x="283.21" y="267.97" size="5.08" layer="97">SIX4MIX 6:1 AUDIO MIXER
+VERSION 1.A (2021)</text>
 </plain>
 <instances>
 <instance part="LVL4" gate="G$1" x="237.49" y="386.08"/>
@@ -14080,51 +14082,35 @@ divider and unity buffered for line out</text>
 <approved hash="104,1,193.04,265.43,IC2P,V-,-12V,,,"/>
 <approved hash="104,1,198.12,280.67,IC1P,V+,+12V,,,"/>
 <approved hash="104,1,198.12,265.43,IC1P,V-,-12V,,,"/>
-<approved hash="113,1,228.6,362.038,C7,,,,,"/>
-<approved hash="113,1,252.73,348.975,R10,,,,,"/>
-<approved hash="113,1,270.51,356.595,R9,,,,,"/>
-<approved hash="113,1,228.6,321.398,C8,,,,,"/>
-<approved hash="113,1,252.73,308.335,R6,,,,,"/>
-<approved hash="113,1,270.51,315.955,R7,,,,,"/>
-<approved hash="113,1,113.03,321.398,C9,,,,,"/>
-<approved hash="113,1,137.16,308.335,R16,,,,,"/>
-<approved hash="113,1,154.94,315.955,R15,,,,,"/>
-<approved hash="113,1,228.6,403.388,C10,,,,,"/>
-<approved hash="113,1,252.73,389.615,R12,,,,,"/>
-<approved hash="113,1,270.51,397.235,R13,,,,,"/>
-<approved hash="113,1,113.03,403.294,C11,,,,,"/>
-<approved hash="113,1,137.16,389.615,R22,,,,,"/>
-<approved hash="113,1,154.94,397.235,R21,,,,,"/>
-<approved hash="113,1,113.03,362.748,C12,,,,,"/>
-<approved hash="113,1,137.16,348.975,R18,,,,,"/>
-<approved hash="113,1,154.94,356.595,R19,,,,,"/>
+<approved hash="113,1,228.6,362.083,C9,,,,,"/>
+<approved hash="113,1,228.6,322.152,C10,,,,,"/>
+<approved hash="113,1,113.03,322.152,C13,,,,,"/>
+<approved hash="113,1,228.6,403.432,C14,,,,,"/>
+<approved hash="113,1,113.03,403.432,C17,,,,,"/>
+<approved hash="113,1,113.03,362.792,C18,,,,,"/>
 <approved hash="113,1,341.63,376.915,R20,,,,,"/>
 <approved hash="113,1,341.63,374.375,R17,,,,,"/>
 <approved hash="113,1,341.63,371.835,R14,,,,,"/>
 <approved hash="113,1,341.63,369.295,R11,,,,,"/>
 <approved hash="113,1,341.63,366.755,R8,,,,,"/>
 <approved hash="113,1,341.63,364.215,R5,,,,,"/>
-<approved hash="113,1,364.49,348.975,R2,,,,,"/>
-<approved hash="113,1,378.46,355.325,R1,,,,,"/>
-<approved hash="113,1,406.4,346.798,C5,,,,,"/>
-<approved hash="113,1,421.64,322.668,C6,,,,,"/>
-<approved hash="113,1,390.165,316.23,R4,,,,,"/>
-<approved hash="113,1,392.155,331.47,R3,,,,,"/>
-<approved hash="113,1,208.368,279.4,C1,,,,,"/>
-<approved hash="113,1,208.368,266.7,C2,,,,,"/>
-<approved hash="113,1,215.031,279.4,C3,,,,,"/>
-<approved hash="113,1,215.031,266.7,C4,,,,,"/>
+<approved hash="113,1,406.4,346.843,C5,,,,,"/>
+<approved hash="113,1,421.64,322.713,C6,,,,,"/>
+<approved hash="113,1,208.413,279.4,C1,,,,,"/>
+<approved hash="113,1,208.413,266.7,C2,,,,,"/>
+<approved hash="113,1,215.076,279.4,C3,,,,,"/>
+<approved hash="113,1,215.076,266.7,C4,,,,,"/>
 <approved hash="113,1,246.617,285.881,+12,,,,,"/>
 <approved hash="113,1,246.617,274.451,GND,,,,,"/>
 <approved hash="113,1,246.617,263.021,-12,,,,,"/>
 <approved hash="113,1,220.98,285.339,FB1,,,,,"/>
 <approved hash="113,1,220.98,262.479,FB2,,,,,"/>
-<approved hash="113,1,172.561,279.4,C13,,,,,"/>
-<approved hash="113,1,167.481,279.4,C14,,,,,"/>
-<approved hash="113,1,162.401,279.4,C15,,,,,"/>
-<approved hash="113,1,172.561,266.7,C17,,,,,"/>
-<approved hash="113,1,167.481,266.7,C18,,,,,"/>
-<approved hash="113,1,162.401,266.7,C19,,,,,"/>
+<approved hash="113,1,172.606,279.4,C12,,,,,"/>
+<approved hash="113,1,167.526,279.4,C16,,,,,"/>
+<approved hash="113,1,161.736,279.4,C8,,,,,"/>
+<approved hash="113,1,172.512,266.7,C11,,,,,"/>
+<approved hash="113,1,167.526,266.7,C15,,,,,"/>
+<approved hash="113,1,161.736,266.7,C7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
